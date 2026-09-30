@@ -80,23 +80,10 @@ public class RegisterServlet extends HttpServlet {
 
                 out.println("<body>");
 
-                out.println("<h2>Registration Successful!</h2>");
+                out.println("<h1>Registration Successful!</h1>");
+                out.println("<p>Welcome " + fullname + "</p>");
 
-                out.println("<p>Welcome " +
-                        fullname +
-                        "</p>");
-
-                out.println("<br>");
-
-                out.println(
-                        "<a href='registration.html'>Register Another User</a>"
-                );
-
-                out.println("<br><br>");
-
-                out.println(
-                        "<a href='display'>View All Users</a>"
-                );
+                out.println("<a href='registration.html'>Register Another User</a>");
 
                 out.println("</body>");
 
